@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800;900&display=swap');
+
+nav {
+   font-family: 'Exo', sans-serif;
+   font-weight: bold;
+   background-color: #570EF2;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   padding: 2vh 2vh;
+   width: 100%;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.nav-img {
+   width: 40px;
+   margin-right: 1vw;
+}
