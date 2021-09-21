@@ -5,11 +5,15 @@ import AluraQ from './../../images/alura-quiz.png';
 import CoreNerd from './../../images/core-nerd.png';
 import AjudeSuaOng from './../../images/ajude-sua-ong.png';
 import DsVendas from './../../images/devsuperior.png';
+import ProfileCard from '../ProfileCard';
 
 export default function Home() {
    return (
       <>
          <div className="container">
+
+            <ProfileCard/>
+
             <WorkItem
                link="https://www.google.com"
                imagem={AluraQ}
