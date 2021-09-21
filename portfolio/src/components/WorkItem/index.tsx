@@ -1,17 +1,25 @@
 import React from 'react';
-import './css/index.css';
-import Work from '../../images/alura-quiz.png';
+import './css/item.css';
 
-function WorkItem() {
+interface Props {
+   imagem: any,
+   titulo: string,
+   desc: any,
+   link: string
+}
+
+function WorkItem(props: Props) {
    return (
       <>
-         <div className="work-item">
-            <img className="work-img" src={Work} alt="Alura Quiz App" />
-            <div className="description">
-               <h5>Aluraquiz</h5>
-               <p>App desenvolvido na imarção Alura 1</p>
+         <a target="blank" href={props.link}>
+            <div className="work-item">
+               <img className="work-img" src={props.imagem} alt="Alura Quiz App" />
+               <div className="description">
+                  <h5>{props.titulo}</h5>
+                  <p>{props.desc}</p>
+               </div>
             </div>
-         </div>
+         </a>
       </>
    );
 }
