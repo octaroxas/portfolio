@@ -1,0 +1,16 @@
+.tech-item-container {
+   display: flex;
+   margin-bottom: 10px;
+}
+
+.tech-item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.logo {
+   width: 2rem;
+   margin-right: 20px;
+}
+

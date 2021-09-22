@@ -1,0 +1,46 @@
+.tech-card-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.tech-card {
+   width: 300px;
+   background-color: #1B1A1F;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+}
+
+h2 {
+   font-family: 'Exo';
+   color: #fff;
+   margin-left: 3vw;
+}
+
+th, tr {
+   font-family: 'Exo';
+   color: #fff;
+   text-align: left;
+}
+
+th {
+   margin-left: 3vw;
+}
+
+.but-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.add-tech {
+   background-color: #2C2C2C;
+   width: 80px;
+   height: 32px;
+   border-radius: 5px;
+   cursor: pointer;
+   border-style: none;
+   color: #fff;
+   font-weight: bold;
+   margin: 2vh 2vh
+}
